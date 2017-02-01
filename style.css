@@ -1,0 +1,125 @@
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+}
+#wrapper {
+    display:table;
+    height:100%;
+    width:100%;
+}
+#wrapper .row {
+    display:table-row;
+}
+#wrapper .cell {
+    display:table-cell;
+    width:100%;
+}
+#header .cell {
+    height:25px;/*this was 55 before, note I have that weird gap at the bottom*/
+    vertical-align:top;
+    background:#ffffff;
+  
+    /*good color: fbf9f9*/
+    
+
+  
+   }
+#body, #body.cell {
+    height:100%;
+}
+#body .cell {
+    vertical-align:middle;
+    text-align:center;
+    position:relative;
+}
+.innerdiv {
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index: -2;
+}
+
+
+.centeredImage {
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+   .imageCorner {
+	
+    display: block;
+}
+
+.right {
+    position: absolute;
+    right: 5px;
+    padding: 2px 0 0 0;
+    
+}
+
+.right2 {
+    position: absolute;
+    right: 45px;
+    padding: 2px 0 0 0;
+    
+}
+
+.right3{
+	
+    position: absolute;
+    right:300px;
+    padding: 4px 0 0 0;
+	
+}
+/*this is a id case*/
+#shareText{
+	
+    position: absolute;
+    right:90px;
+    padding: 9px 0 0 0;
+    color: #a9a4a4;
+   font-size: 17px;
+    font-family: "微軟正黑體", "Microsoft JhengHei",  Tahoma , Verdana , Arial , sans-serif;
+	
+	
+}
+#shareText2{
+	
+    position: absolute;
+    left:105px;
+    padding: 9px 0 0 0;
+    color: #a9a4a4;
+   font-size: 17px;
+    font-family: "微軟正黑體", "Microsoft JhengHei",  Tahoma , Verdana , Arial , sans-serif;
+	
+	
+}
+
+#miaoLogo{
+	position: absolute;
+	text-align: center;
+	/*Here we can see how to set the zsize and how to stop text overlfow*/
+	width:348px;
+	height:600px;
+	word-wrap: break-word;
+        left:90px;
+        top:200px;
+        	
+}
+
+.dlLogo{
+    position: absolute;
+    left:5px;
+    top:4px;
+    
+    /* right 200 top 5*/
+
+	
+	
+	
+}
+
+
+
